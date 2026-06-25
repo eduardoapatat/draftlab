@@ -16,14 +16,10 @@ equipo.
   como un enlace.
 - Usa las reglas del draft competitivo (secuencia de bans y picks por turnos,
   con cronometro por turno).
-- Opcion de no banear, como en el competitivo.
 - Reordenamiento de lineas en la fase final: como hay un capitan por lado, al
   terminar el draft el capitan acomoda sus picks en cada linea (top, jungla,
   mid, bot, support) arrastrando y soltando.
 - Contraseña opcional y eleccion de lado al crear la sala.
-- Boton de "Listo": el draft no empieza hasta que ambos capitanes confirman, y
-  se pausa si un capitan se desconecta.
-- Buscador de campeones, con los datos en vivo desde la API de Riot.
 
 ## Tecnologias
 
