@@ -8,6 +8,8 @@ La idea es jugar el draft como en un partido de equipo: un lado azul contra un
 lado rojo, con un capitán por lado que banea y elige los campeones por su
 equipo.
 
+![Vista del draft](docs/draft.png)
+
 ## Caracteristicas
 
 - Modo en equipo, lado azul contra lado rojo.
@@ -20,6 +22,10 @@ equipo.
 - Reordenamiento de lineas en la fase final: como hay un capitan por lado, al
   terminar el draft el capitan acomoda sus picks en cada linea (top, jungla,
   mid, bot, support) arrastrando y soltando.
+
+Al crear la sala se configuran los equipos, la contraseña y el lado:
+
+![Configurar partida](docs/setup-dialog.png)
 
 ## Tecnologias
 
