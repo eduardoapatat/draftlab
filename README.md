@@ -13,13 +13,13 @@ equipo.
 - Modo en equipo, lado azul contra lado rojo.
 - Un capitan por lado: cada capitan banea y pickea por su equipo.
 - Creacion de drafts por salas: cada partida vive en su propia URL y se comparte
-  como un enlace.
+  como un enlace. La sala puede ser publica o privada con contraseña, y al
+  crearla eliges tu lado (azul o rojo).
 - Usa las reglas del draft competitivo (secuencia de bans y picks por turnos,
   con cronometro por turno).
 - Reordenamiento de lineas en la fase final: como hay un capitan por lado, al
   terminar el draft el capitan acomoda sus picks en cada linea (top, jungla,
   mid, bot, support) arrastrando y soltando.
-- Contraseña opcional y eleccion de lado al crear la sala.
 
 ## Tecnologias
 
