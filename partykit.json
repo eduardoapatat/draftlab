@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "draftlab",
+  "main": "party/draft.ts",
+  "compatibilityDate": "2026-06-24",
+  "serve": {
+    "path": "dist",
+    "singlePageApp": true
+  }
+}
