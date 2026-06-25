@@ -10,24 +10,24 @@ equipo.
 
 ![Vista del draft](docs/draft.png)
 
-## Caracteristicas
+## Características
 
 - Modo en equipo, lado azul contra lado rojo.
-- Un capitan por lado: cada capitan banea y pickea por su equipo.
-- Creacion de drafts por salas: cada partida vive en su propia URL y se comparte
-  como un enlace. La sala puede ser publica o privada con contraseña, y al
+- Un capitán por lado: cada capitán banea y pickea por su equipo.
+- Creación de drafts por salas: cada partida vive en su propia URL y se comparte
+  como un enlace. La sala puede ser pública o privada con contraseña, y al
   crearla eliges tu lado (azul o rojo).
 - Usa las reglas del draft competitivo (secuencia de bans y picks por turnos,
-  con cronometro por turno).
-- Reordenamiento de lineas en la fase final: como hay un capitan por lado, al
-  terminar el draft el capitan acomoda sus picks en cada linea (top, jungla,
+  con cronómetro por turno).
+- Reordenamiento de líneas en la fase final: como hay un capitán por lado, al
+  terminar el draft el capitán acomoda sus picks en cada línea (top, jungla,
   mid, bot, support) arrastrando y soltando.
 
 Al crear la sala se configuran los equipos, la contraseña y el lado:
 
 ![Configurar partida](docs/setup-dialog.png)
 
-## Tecnologias
+## Tecnologías
 
 - React 19, TypeScript y Vite
 - PartyKit (WebSockets sobre Cloudflare) para el tiempo real
@@ -35,12 +35,12 @@ Al crear la sala se configuran los equipos, la contraseña y el lado:
 - @dnd-kit para el arrastrar y soltar
 - Data Dragon de Riot Games como fuente de campeones
 
-## Como funciona
+## Cómo funciona
 
-El servidor es la unica fuente de verdad. Los clientes no deciden nada por su
+El servidor es la única fuente de verdad. Los clientes no deciden nada por su
 cuenta: mandan intenciones ("quiero banear a X") y el servidor valida si es
-valido, aplica el cambio y reparte el nuevo estado a todos. Asi nadie puede
-hacer trampa y todos ven lo mismo, incluso al recargar la pagina.
+válido, aplica el cambio y reparte el nuevo estado a todos. Así nadie puede
+hacer trampa y todos ven lo mismo, incluso al recargar la página.
 
 ## Correr en local
 
@@ -59,13 +59,13 @@ pnpm dev
 ```
 
 Abre la URL que muestra Vite. Para probar el multijugador, abre la misma sala
-en dos pestañas (una en incognito sirve como segundo jugador).
+en dos pestañas (una en incógnito sirve como segundo jugador).
 
 ## Despliegue
 
-Los pasos para publicarlo estan en [DEPLOY.md](./DEPLOY.md).
+Los pasos para publicarlo están en [DEPLOY.md](./DEPLOY.md).
 
 ## Estado
 
-En desarrollo. Funciona de extremo a extremo en local; el hosting esta
-pendiente. La base ya esta lista para sumar mas juegos ademas de LoL.
+En desarrollo. Funciona de extremo a extremo en local; el hosting está
+pendiente. La base ya está lista para sumar más juegos además de LoL.
