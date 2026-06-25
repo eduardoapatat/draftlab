@@ -15,7 +15,13 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    /* Alias de imports (@/ -> src/) */
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
     /* Linting */
+    "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
